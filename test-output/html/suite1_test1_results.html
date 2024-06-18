@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Login Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Login Test</h1>
+<p>
+  Test duration: 107.520s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.orangehrmlive.demo.opensource.testsuite.UsersTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  searchTheUserAndVerifyTheMessageRecordFound
+      </td>
+  <td class="duration">
+    12.595s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"FMLNameee", "ESS", "Qwerty Qwerty LName", " Enabled"</span><br />
+    
+            <div class="testOutput">
+                        Enter email Admin to username fieldAdmin<br />
+                                Enter password [[ChromeDriver: chrome on windows (afe7bdc821ddfb73c513e7d06a402a7a)] -&gt; name: password] to password fieldadmin123<br />
+                                Clicking on login button<br />
+                                CLick on admin button <br />
+                                Verify text [[ChromeDriver: chrome on windows (afe7bdc821ddfb73c513e7d06a402a7a)] -&gt; xpath: //h5[normalize-space()=&apos;System Users&apos;]]<br />
+                                Verify the username FMLNameee<br />
+                                select the user ESS<br />
+                                send the employye name Qwerty Qwerty LName<br />
+                                Verify the employee role Qwerty Qwerty LName<br />
+                                Verify the user status&nbsp; Enabled<br />
+                                clicked on the seach button <br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button data-v-10d463b7=&quot;&quot; type=&quot;submit&quot; class=&quot;oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space&quot;&gt;...&lt;/button&gt; is not clickable at point (1398, 337). Other element would receive the click: &lt;div data-v-d130bb63=&quot;&quot; data-v-13cf171c=&quot;&quot; role=&quot;option&quot; class=&quot;oxd-select-option&quot;&gt;...&lt;/div&gt;<br/>
+&nbsp; (Session info: chrome=125.0.6422.142)<br/>
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;<br/>
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [afe7bdc821ddfb73c513e7d06a402a7a, clickElement {id=f.702B287D01EB4535295380DA206CE596.d.C272D8B060F944A29D5779105FB74219.e.80}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\YATRIH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51068}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51068/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Element: [[ChromeDriver: chrome on windows (afe7bdc821ddfb73c513e7d06a402a7a)] -&gt; xpath: //button[normalize-space()=&apos;Search&apos;]]<br/>
+Session ID: afe7bdc821ddfb73c513e7d06a402a7a</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br />
+              org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)<br />
+              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)<br />
+              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)<br />
+              jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)<br />
+              com.orangehrmlive.demo.opensource.utilities.Utility.clickOnElement(Utility.java:51)<br />
+              com.orangehrmlive.demo.opensource.pages.AddUserPage.clickOnSearchButton(AddUserPage.java:139)<br />
+              com.orangehrmlive.demo.opensource.testsuite.UsersTest.searchTheUserAndVerifyTheMessageRecordFound(UsersTest.java:254)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:739)<br />
+              org.testng.TestRunner.run(TestRunner.java:614)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1112)<br />
+              org.testng.TestNG.run(TestNG.java:1079)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.orangehrmlive.demo.opensource.testsuite.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatTheLogoDisplayOnHomePage
+      </td>
+  <td class="duration">
+    2.758s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Enter email Admin to username fieldAdmin<br />
+                                Enter password [[ChromeDriver: chrome on windows (b6274e5115465c5d78fc7c9c176e87e5)] -&gt; name: password] to password fieldadmin123<br />
+                                Clicking on login button<br />
+                                Get orangehrm logo<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldLogOutSuccessFully
+      </td>
+  <td class="duration">
+    7.830s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Enter email Admin to username fieldAdmin<br />
+                                Enter password [[ChromeDriver: chrome on windows (485c78220972f2a2ddf73ce7d3939ce2)] -&gt; name: password] to password fieldadmin123<br />
+                                Clicking on login button<br />
+                                clicking on user link[[ChromeDriver: chrome on windows (485c78220972f2a2ddf73ce7d3939ce2)] -&gt; xpath: //p[@class=&apos;oxd-userdropdown-name&apos;]]<br />
+                                clicking on logout button[[ChromeDriver: chrome on windows (485c78220972f2a2ddf73ce7d3939ce2)] -&gt; xpath: //a[normalize-space()=&apos;Logout&apos;]]<br />
+                                Get text from login <br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldLoginSuccessFully
+      </td>
+  <td class="duration">
+    2.923s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Enter email Admin to username fieldAdmin<br />
+                                Enter password [[ChromeDriver: chrome on windows (cdeae69a6fb85b3fae0d76862eff5b24)] -&gt; name: password] to password fieldadmin123<br />
+                                Clicking on login button<br />
+                                Get welcome text<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.orangehrmlive.demo.opensource.testsuite.UsersTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  adminShouldAddUserSuccessFully
+      </td>
+  <td class="duration">
+    16.474s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Enter email Admin to username fieldAdmin<br />
+                                Enter password [[ChromeDriver: chrome on windows (0b73be92339442b22ecbe6bd8b282eab)] -&gt; name: password] to password fieldadmin123<br />
+                                Clicking on login button<br />
+                                CLick on admin button <br />
+                                Verify text [[ChromeDriver: chrome on windows (0b73be92339442b22ecbe6bd8b282eab)] -&gt; xpath: //h5[normalize-space()=&apos;System Users&apos;]]<br />
+                                CLick on add button <br />
+                                Verify text [[ChromeDriver: chrome on windows (0b73be92339442b22ecbe6bd8b282eab)] -&gt; xpath: //h6[normalize-space()=&apos;Add User&apos;]]<br />
+                                select text Admin<br />
+                                send emplyee name&nbsp; Qwerty Qwerty LName<br />
+                                select employee role Qwerty Qwerty LName<br />
+                                select user status Enabled<br />
+                                send the user name FMLNameee<br />
+                                enter the passwordprime123<br />
+                                enter the confirmed passwordprime123<br />
+                                click on save button<br />
+                                get saved message<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  searchTheUserCreatedAndVerifyIt
+      </td>
+  <td class="duration">
+    14.177s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Enter email Admin to username fieldAdmin<br />
+                                Enter password [[ChromeDriver: chrome on windows (a042d7cab45271576f33047f7d45e267)] -&gt; name: password] to password fieldadmin123<br />
+                                Clicking on login button<br />
+                                CLick on admin button <br />
+                                Verify text [[ChromeDriver: chrome on windows (a042d7cab45271576f33047f7d45e267)] -&gt; xpath: //h5[normalize-space()=&apos;System Users&apos;]]<br />
+                                Verify the username FMLNameee<br />
+                                select the user Admin<br />
+                                send the employye name Qwerty Qwerty LName<br />
+                                Verify the employee role Qwerty Qwerty LName<br />
+                                Verify the user status Enabled<br />
+                                clicked on the seach button <br />
+                                Verify the text <br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyThatAdminShouldDeleteTheUserSuccessFully
+      </td>
+  <td class="duration">
+    13.668s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Enter email Admin to username fieldAdmin<br />
+                                Enter password [[ChromeDriver: chrome on windows (057c37b362daa0ea8c7b35a360d396e6)] -&gt; name: password] to password fieldadmin123<br />
+                                Clicking on login button<br />
+                                CLick on admin button <br />
+                                Verify text [[ChromeDriver: chrome on windows (057c37b362daa0ea8c7b35a360d396e6)] -&gt; xpath: //h5[normalize-space()=&apos;System Users&apos;]]<br />
+                                Verify the username FMLNameee<br />
+                                select the user Admin<br />
+                                send the employye name Qwerty Qwerty LName<br />
+                                Verify the employee role Qwerty Qwerty LName<br />
+                                Verify the user status Enabled<br />
+                                clicked on the seach button <br />
+                                Verify the text <br />
+                                Verify the user FMLNameee<br />
+                                clicked on checkbox<br />
+                                clicked on delete user<br />
+                                clicked on confirmed delete <br />
+                                Verify the deleted message <br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
